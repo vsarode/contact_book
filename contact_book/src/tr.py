@@ -35,7 +35,7 @@ class Trie:
             child = self.children[index_to_insert]
         return child.insert(key[1:])
 
-    def get_closure_words(self, pref, node, travelNext):
+    def get_closure_words(self, pref, node, travelNext, is_name):
         if not node:
             return []
         word = pref + node.char
@@ -45,17 +45,21 @@ class Trie:
                 s_nodes = filter(lambda x: x, node.s_node)
                 surnames = []
                 for o in s_nodes:
-                    surnames.extend(self.get_closure_words("", o, False))
-                v = [word + " " + x for x in surnames]
+                    surnames.extend(
+                        self.get_closure_words("", o, False, is_name))
+                if is_name:
+                    v = [word + " " + x for x in surnames]
+                else:
+                    v = [x + " " + word for x in surnames]
             else:
                 v = [word]
             for o in childs:
-                v.extend(self.get_closure_words(word, o,travelNext))
+                v.extend(self.get_closure_words(word, o, travelNext, is_name))
             return v
         v = []
         filtedred_childs = filter(lambda x: x, node.children)
         for o in filtedred_childs:
-            v.extend(self.get_closure_words(word, o, travelNext))
+            v.extend(self.get_closure_words(word, o, travelNext, is_name))
         return v
 
     def search(self, key):
@@ -83,9 +87,16 @@ def search_data(n_root, s_root, data):
     s_last = s_root.search(data)
     # print n_last.__dict__
     # print s_last.__dict__
-    print n_last.get_closure_words(data[:-1], n_last, True)
-    surnames = s_last.get_closure_words(data[:-1], s_last, True)
-    print surnames
+    names = []
+    surnames = []
+    if n_last:
+        names = n_last.get_closure_words(data[:-1], n_last, True, True)
+    # print names
+    if s_last:
+        surnames = s_last.get_closure_words(data[:-1], s_last, True, False)
+
+    names.extend(surnames)
+    print names
 
 
 def insertData(n_root, s_root, data):
@@ -101,18 +112,19 @@ def insertData(n_root, s_root, data):
 
     slastNode.s_node[_char_to_index(last_name[-1])] = n_root.children[
         _char_to_index(
-        name[0])]
+            name[0])]
+
 
 if __name__ == '__main__':
     n_root = Trie('')
     s_root = Trie('')
     insertData(n_root, s_root, "mahadev vyavahare")
     insertData(n_root, s_root, "mahadev solapur")
-    insertData(n_root, s_root, "sochin gaikwad ")
-    insertData(n_root, s_root, "sopan gaikwad ")
+    insertData(n_root, s_root, "sopan gaikwad")
+    insertData(n_root, s_root, "sochin gaikwad")
     insertData(n_root, s_root, "vitthal sarode")
     insertData(n_root, s_root, "arun kamble")
-    search_data(n_root, s_root, 'so')
+    search_data(n_root, s_root, 'mahadev')
 
     #
     # n_root.insert('these')
