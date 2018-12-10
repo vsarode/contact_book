@@ -2,16 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e62b44a1-ae72-44a3-8e69-3fac3e2e8e22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/contact_book/assets/contact.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact_book/src/contact.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact_book/tests/performance_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact_book/tests/test_contact.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact_book/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact_book/utils/performance_measure.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contact_book/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contact_book/core/contact_functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contact_book/src/contacts_trie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contact_book/tests/test_contact_function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contact_book/tests/test_contacts_trie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact_book/config/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/contact_book/assets/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact_book/src/t.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact_book/src/tr.py" beforeDir="false" afterPath="$PROJECT_DIR$/contact_book/src/trie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact_book/README" beforeDir="false" afterPath="$PROJECT_DIR$/contact_book/core/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact_book/assets/contact.txt" beforeDir="false" afterPath="$PROJECT_DIR$/contact_book/assets/contact.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact_book/assets/contacts.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact_book/src/contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/contact_book/src/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact_book/src/trie.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact_book/tests/performance_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/contact_book/tests/test_performance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact_book/tests/test_contact.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,139 +33,125 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="README" value="1" />
+          <entry key="README" value="2" />
           <entry key="contacts" value="1" />
-          <entry key="py" value="16" />
+          <entry key="py" value="28" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="16" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="contacts" value="23" />
-          <entry key="dummy" value="35" />
-          <entry key="py" value="6932" />
+          <entry key="dummy" value="80" />
+          <entry key="py" value="10182" />
           <entry key="txt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="68" />
-          <entry key="Python" value="6932" />
+          <entry key="PLAIN_TEXT" value="113" />
+          <entry key="Python" value="10182" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.41499087">
-      <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/contact_book/src/trie.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="532">
-                  <caret line="87" selection-start-line="87" selection-end-line="87" />
-                  <folding>
-                    <marker date="1542599407000" expanded="true" signature="11:16" ph="..." />
-                    <marker date="1542599407000" expanded="true" signature="203:285" ph="..." />
-                    <marker date="1542599407000" expanded="true" signature="716:1785" ph="..." />
-                    <marker date="1542599407000" expanded="true" signature="2263:2837" ph="..." />
-                    <marker date="1542599407000" expanded="true" signature="2925:3688" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/contact_book/src/contact.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="241">
-                  <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
-                  <folding>
-                    <marker date="1542597767998" expanded="true" signature="89:206" ph="..." />
-                    <marker date="1542597767998" expanded="true" signature="224:601" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/contact_book/utils/performance_measure.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/Downloads/Solutions/__init__.py">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/Downloads/Solutions/test/test_for_solution1.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="264">
-                  <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-                  <folding>
-                    <element signature="e#0#15#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/Downloads/Solutions/test/test_for_solution2.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-37">
-                  <folding>
-                    <element signature="e#0#10#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/contact_book/tests/test_contact.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="580">
-                  <caret line="35" selection-start-line="35" selection-end-line="35" />
-                  <folding>
-                    <element signature="e#0#15#0" expanded="true" />
-                    <marker date="1542570228196" expanded="true" signature="267:272" ph="..." />
-                    <marker date="1542570228196" expanded="true" signature="890:895" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/contact_book/src/trie.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-687">
-                  <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-                  <folding>
-                    <marker date="1542599407000" expanded="true" signature="11:16" ph="..." />
-                    <marker date="1542599407000" expanded="true" signature="203:285" ph="..." />
-                    <marker date="1542599407000" expanded="true" signature="716:1785" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/contact_book/src/contacts_trie.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="62" column="53" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="53" />
+              <folding>
+                <marker date="1542623248503" expanded="true" signature="200:206" ph="..." />
+                <marker date="1542623248503" expanded="true" signature="710:792" ph="..." />
+                <marker date="1542623248503" expanded="true" signature="1695:2266" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/Solutions/src/solution2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/Solutions/src/solution1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="19" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/Solutions/test/test_for_solution1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="16" column="32" selection-start-line="16" selection-end-line="17" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contact_book/src/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <marker date="1542620188958" expanded="true" signature="98:215" ph="..." />
+                <marker date="1542620188958" expanded="true" signature="233:665" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contact_book/tests/test_performance.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16">
+              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contact_book/tests/test_contacts_trie.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+              <folding>
+                <marker date="1542620039981" expanded="true" signature="163:168" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contact_book/README.md">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -174,6 +164,8 @@
     <findStrings>
       <find>insert_node</find>
       <find>insertSname</find>
+      <find>isEndO</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -188,18 +180,21 @@
         <option value="$PROJECT_DIR$/contact_book/assets/contacts" />
         <option value="$PROJECT_DIR$/contact_book/assets/contacts.txt" />
         <option value="$PROJECT_DIR$/contact_book/src/tr.py" />
-        <option value="$PROJECT_DIR$/contact_book/tests/test_contact.py" />
         <option value="$PROJECT_DIR$/contact_book/tests/performance_test.py" />
         <option value="$PROJECT_DIR$/contact_book/src/contact.py" />
+        <option value="$PROJECT_DIR$/contact_book/tests/test_contact.py" />
         <option value="$PROJECT_DIR$/contact_book/src/trie.py" />
+        <option value="$PROJECT_DIR$/contact_book/src/app.py" />
+        <option value="$PROJECT_DIR$/contact_book/core/contact_functions.py" />
+        <option value="$PROJECT_DIR$/contact_book/tests/functionality.py" />
+        <option value="$PROJECT_DIR$/contact_book/src/contacts_trie.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-324" />
-    <option name="y" value="258" />
-    <option name="width" value="1398" />
-    <option name="height" value="828" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="835" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -224,6 +219,12 @@
               <item name="contact_book" type="b2602c69:ProjectViewProjectNode" />
               <item name="contact_book" type="462c0819:PsiDirectoryNode" />
               <item name="contact_book" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="contact_book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="contact_book" type="462c0819:PsiDirectoryNode" />
+              <item name="contact_book" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -231,6 +232,12 @@
               <item name="contact_book" type="462c0819:PsiDirectoryNode" />
               <item name="contact_book" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="contact_book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="contact_book" type="462c0819:PsiDirectoryNode" />
+              <item name="contact_book" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="contact_book" type="b2602c69:ProjectViewProjectNode" />
@@ -282,7 +289,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tr">
+  <component name="RunManager" selected="Python.contact">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="contact_book" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/contact_book/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/contact_book/src/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="contact" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="contact_book" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -295,7 +323,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/contact_book/src/contact.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/contact_book/src/app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -316,7 +344,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/contact_book/src/trie.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/contact_book/src/contacts_trie.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -325,7 +353,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_contact.TestContactBook.test_search_Sid_in_contact" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in /Users/shree/practice/python/contact_book/contact_book/tests/functionality.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="contact_book" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -335,25 +363,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_contact.TestContactBook.test_search_Sid_in_contact&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in performance_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="contact_book" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/contact_book/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/contact_book/tests/performance_test.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/contact_book/tests/functionality.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_contact.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_performance.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="contact_book" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -363,24 +377,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/contact_book/tests/test_contact.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/contact_book/tests/test_performance.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.tr" />
-      <item itemvalue="Python tests.Unittests in test_contact.py" />
-      <item itemvalue="Python tests.Unittests for test_contact.TestContactBook.test_search_Sid_in_contact" />
-      <item itemvalue="Python tests.Unittests in performance_test.py" />
+      <item itemvalue="Python tests.Unittests in /Users/shree/practice/python/contact_book/contact_book/tests/functionality.py" />
+      <item itemvalue="Python tests.Unittests in test_performance.py" />
       <item itemvalue="Python.contact" />
+      <item itemvalue="Python.app" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.tr" />
         <item itemvalue="Python.contact" />
-        <item itemvalue="Python tests.Unittests in performance_test.py" />
-        <item itemvalue="Python tests.Unittests for test_contact.TestContactBook.test_search_Sid_in_contact" />
-        <item itemvalue="Python tests.Unittests in test_contact.py" />
+        <item itemvalue="Python.tr" />
+        <item itemvalue="Python tests.Unittests in test_performance.py" />
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python tests.Unittests in /Users/shree/practice/python/contact_book/contact_book/tests/functionality.py" />
       </list>
     </recent_temporary>
   </component>
@@ -398,34 +412,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_contact_py - 2018.11.18 at 23h 54m 02s.xml">
-      <configuration name="Unittests in test_contact.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_contact_py - 2018.11.18 at 23h 54m 32s.xml">
-      <configuration name="Unittests in test_contact.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_contact_py - 2018.11.19 at 00h 22m 52s.xml">
-      <configuration name="Unittests in test_contact.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_contact_py - 2018.11.19 at 00h 24m 10s.xml">
-      <configuration name="Unittests in test_contact.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_contact_TestContactBook_test_search_Sid_in_contact - 2018.11.19 at 00h 25m 49s.xml">
-      <configuration name="Unittests for test_contact.TestContactBook.test_search_Sid_in_contact" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_performance_test_py - 2018.11.19 at 01h 08m 02s.xml">
-      <configuration name="Unittests in performance_test.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_performance_test_py - 2018.11.19 at 01h 08m 55s.xml">
-      <configuration name="Unittests in performance_test.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_performance_test_py - 2018.11.19 at 01h 09m 38s.xml">
-      <configuration name="Unittests in performance_test.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_performance_test_py - 2018.11.19 at 01h 12m 06s.xml">
       <configuration name="Unittests in performance_test.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_performance_test_py - 2018.11.19 at 01h 12m 58s.xml">
+      <configuration name="Unittests in performance_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_performance_test_py - 2018.11.19 at 10h 13m 00s.xml">
+      <configuration name="Unittests in performance_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_performance_test_py - 2018.11.19 at 10h 14m 22s.xml">
+      <configuration name="Unittests in performance_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_performance_test_py - 2018.11.19 at 10h 15m 31s.xml">
+      <configuration name="Unittests in performance_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_performance_test_py - 2018.11.19 at 10h 16m 22s.xml">
+      <configuration name="Unittests in performance_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_performance_test_py - 2018.11.19 at 10h 18m 01s.xml">
+      <configuration name="Unittests in performance_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_contact_py - 2018.11.19 at 10h 33m 23s.xml">
+      <configuration name="Unittests in test_contact.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_performance_test_py - 2018.11.19 at 10h 41m 26s.xml">
+      <configuration name="Unittests in performance_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_performance_test_py - 2018.11.19 at 12h 56m 43s.xml">
       <configuration name="Unittests in performance_test.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -434,7 +448,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22630835" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.22630835" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32992327" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -442,7 +456,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32992327" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32992327" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32992327" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39897698" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -534,10 +548,7 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/contact_book/README">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact_book/src/trie.py">
+    <entry file="file://$PROJECT_DIR$/contact_book/src/contacts_trie.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
           <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
@@ -558,22 +569,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/Solutions/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/Solutions/test/test_for_solution1.py">
+    <entry file="file://$PROJECT_DIR$/contact_book/assets/contacts.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        <state relative-caret-position="654">
+          <caret line="8000" selection-start-line="8000" selection-end-line="8000" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact_book/assets/contact.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="281619" column="13" lean-forward="true" selection-start-line="281619" selection-start-column="13" selection-end-line="281619" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact_book/src/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1542620188958" expanded="true" signature="98:215" ph="..." />
+            <marker date="1542620188958" expanded="true" signature="233:665" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/venv/lib/python2.7/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-381">
+          <caret line="781" column="8" selection-start-line="781" selection-start-column="8" selection-end-line="781" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact_book/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$USER_HOME$/Downloads/Solutions/test/test_for_solution2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-37">
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.2/python_stubs/-181249836/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="3367" column="8" selection-start-line="3367" selection-start-column="8" selection-end-line="3367" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Solutions/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact_book/utils/performance_measure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact_book/tests/test_performance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact_book/core/contact_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="89" column="16" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact_book/tests/test_contacts_trie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding>
+            <marker date="1542620039981" expanded="true" signature="163:168" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact_book/src/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <marker date="1542620188958" expanded="true" signature="98:215" ph="..." />
+            <marker date="1542620188958" expanded="true" signature="233:665" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Solutions/src/solution2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -587,69 +684,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact_book/utils/performance_measure.py">
+    <entry file="file://$USER_HOME$/Downloads/Solutions/test/test_for_solution1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact_book/assets/contacts.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
-          <caret line="8000" selection-start-line="8000" selection-end-line="8000" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact_book/tests/performance_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <marker date="1542570228200" expanded="true" signature="398:804" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact_book/assets/contact.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="281619" column="13" lean-forward="true" selection-start-line="281619" selection-start-column="13" selection-end-line="281619" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact_book/tests/test_contact.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="235">
+          <caret line="16" column="32" selection-start-line="16" selection-end-line="17" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1542570228196" expanded="true" signature="267:272" ph="..." />
-            <marker date="1542570228196" expanded="true" signature="890:895" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact_book/src/contact.py">
+    <entry file="file://$PROJECT_DIR$/contact_book/src/contacts_trie.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
+        <state relative-caret-position="367">
+          <caret line="62" column="53" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="53" />
           <folding>
-            <marker date="1542597767998" expanded="true" signature="89:206" ph="..." />
-            <marker date="1542597767998" expanded="true" signature="224:601" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact_book/src/trie.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-687">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding>
-            <marker date="1542599407000" expanded="true" signature="11:16" ph="..." />
-            <marker date="1542599407000" expanded="true" signature="203:285" ph="..." />
-            <marker date="1542599407000" expanded="true" signature="716:1785" ph="..." />
+            <marker date="1542623248503" expanded="true" signature="200:206" ph="..." />
+            <marker date="1542623248503" expanded="true" signature="710:792" ph="..." />
+            <marker date="1542623248503" expanded="true" signature="1695:2266" ph="..." />
           </folding>
         </state>
       </provider>
